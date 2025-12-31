@@ -1,4 +1,5 @@
 /* ----------------- TYPING EFFECT -------- */
+
 new Typed(".typing", {
   strings: ["Web Developer", "Frontend Developer", "UI Designer"],
   typeSpeed: 60,
@@ -7,12 +8,14 @@ new Typed(".typing", {
 });
 
 /* --------- THEME TOGGLE -------------- */
+
 const themeSwitch = document.getElementById("themeSwitch");
 themeSwitch.addEventListener("change", () => {
   document.body.classList.toggle("light");
 });
 
 /* ---------------- SMOOTH SCROLL ------------------------ */
+
 document.querySelectorAll(".nav-links a").forEach(link => {
   link.addEventListener("click", e => {
     e.preventDefault();
@@ -22,6 +25,7 @@ document.querySelectorAll(".nav-links a").forEach(link => {
 });
 
 /* -----------------   SCROLL ANIMATION ------------------------ */
+
 const sections = document.querySelectorAll(".section");
 window.addEventListener("scroll", () => {
   sections.forEach(sec => {

@@ -43,10 +43,11 @@ header {
 .logo {
   font-size: 1.8rem;
   font-weight: 700;
+  color: white;
 }
 
 .logo span {
-  color: var(--primary);
+  color: white;
 }
 
 .nav-links {
@@ -123,6 +124,7 @@ header {
 
 .hero-text {
   animation: slideLeft 1.2s ease forwards;
+  
 }
 
 
